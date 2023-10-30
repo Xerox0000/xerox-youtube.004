@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-tangolevel
+    name: soum-slim2-test
     env: python
     region: Oregon
     plan: free
