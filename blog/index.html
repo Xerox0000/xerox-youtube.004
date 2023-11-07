@@ -2,7 +2,7 @@
 <>
 <head>
     <meta charset='utf-8'>
-    <title>英単語レベル</title>
+    <title>slim2改造インスタンス</title>
     <script>function getlevel(){
         if(document.getElementById('word').value == "85175"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
@@ -11,8 +11,8 @@
         req.send();}
     }</script>
 </head>
-    英単語のレベルを出します。<br>
-    その単語が文脈から判断するべき単語か、覚えておくべき単語かの参考にしてください。<br>
+    英単語のを出す物でしたが、改造出ない可能性があります<br>
+    ここの入り方は85175入力して、確認を押しURLの最後にある、word/を消す事で入れます。<br>
     <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
 </body>
